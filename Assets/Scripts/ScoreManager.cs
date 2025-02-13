@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;  // For UI Text component
+using TMPro;  // For importing the TextMesh Pro name space
 
 public class ScoreManager : MonoBehaviour
 {
     // Reference to the Text component to display the score
-    public Text scoreText;
+    public TMP_Text scoreText;
     
     // Initial score
     private int score = 0;
