@@ -13,6 +13,7 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int points)
     {
         score += points;
+        Debug.Log("Score after addition: " + score); // Debug log to check the score after addition
         UpdateScoreText();
     }
 
@@ -20,6 +21,7 @@ public class ScoreManager : MonoBehaviour
     public void SubtractScore(int points)
     {
         score -= points;
+        Debug.Log("Score after subtraction: " + score); // Debug log to check the score after subtraction
         UpdateScoreText();
     }
 
