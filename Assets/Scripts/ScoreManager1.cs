@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;  // For importing the TextMesh Pro name space
 
-public class BScoreManager : MonoBehaviour
+public class ScoreManager1 : MonoBehaviour
 {
     // Reference to the Text component to display the score
     public TMP_Text scoreText;

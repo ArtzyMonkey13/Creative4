@@ -1,6 +1,8 @@
 using UnityEngine;
+
 [RequireComponent(typeof(CharacterController))]
-public class playercontroller : MonoBehaviour
+[RequireComponent(typeof(Rigidbody))]
+public class GET_FirstPersonController : MonoBehaviour
 {
     public float WalkSpeed = 5f;
     public float SprintMultiplier = 2f;
@@ -16,11 +18,21 @@ public class playercontroller : MonoBehaviour
     private Vector3 velocity;
     private float verticalRotation = 0;
     private CharacterController characterController;
+    private Rigidbody rb;
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+        rb = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked;
+
+        if (rb != null)
+        {
+            // Disable Rigidbody physics interactions and rotation
+            rb.isKinematic = true;
+            rb.useGravity = false; // Gravity is handled by CharacterController
+            rb.freezeRotation = true; // Prevent rotation via physics
+        }
     }
 
     private void Update()

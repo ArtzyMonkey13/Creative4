@@ -562,7 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abf6d298c37b24935a5eebe7b893ac7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
+  scoreManager: {fileID: 1547093570}
 --- !u!136 &374981804
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -679,7 +679,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 1
 --- !u!1 &410087039
 GameObject:
@@ -972,7 +972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e305f0fcfd744fdb2023c9e3ce738e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
+  scoreManager: {fileID: 1547093570}
 --- !u!135 &469444918
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1087,7 +1087,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 1
 --- !u!1 &488993613
 GameObject:
@@ -1463,7 +1463,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 1
 --- !u!114 &551075834
 MonoBehaviour:
@@ -1474,11 +1474,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 551075827}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30f38814b7aad4ce5b8dfbe20153e974, type: 3}
+  m_Script: {fileID: 11500000, guid: d6e305f0fcfd744fdb2023c9e3ce738e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
-  bounceForce: 10
+  scoreManager: {fileID: 1547093570}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,8 +1539,8 @@ GameObject:
   - component: {fileID: 946561520}
   - component: {fileID: 946561519}
   - component: {fileID: 946561518}
-  - component: {fileID: 946561517}
   - component: {fileID: 946561522}
+  - component: {fileID: 946561523}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -1549,19 +1548,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &946561517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 946561516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abf6d298c37b24935a5eebe7b893ac7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
 --- !u!136 &946561518
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1678,8 +1664,21 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 1
+--- !u!114 &946561523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946561516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf6d298c37b24935a5eebe7b893ac7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1547093570}
 --- !u!1 &1038558179
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,7 +1959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e305f0fcfd744fdb2023c9e3ce738e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
+  scoreManager: {fileID: 1547093570}
 --- !u!135 &1130353271
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2075,7 +2074,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 1
 --- !u!1 &1192440721
 GameObject:
@@ -2110,7 +2109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abf6d298c37b24935a5eebe7b893ac7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
+  scoreManager: {fileID: 1547093570}
 --- !u!136 &1192440723
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2227,7 +2226,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 1
 --- !u!1 &1202148195
 GameObject:
@@ -2262,7 +2261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abf6d298c37b24935a5eebe7b893ac7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
+  scoreManager: {fileID: 1547093570}
 --- !u!136 &1202148197
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2379,7 +2378,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 1
 --- !u!1 &1202898445
 GameObject:
@@ -2424,7 +2423,7 @@ MonoBehaviour:
   MinYLookAngle: -90
   MaxYLookAngle: 90
   PlayerCamera: {fileID: 1038558180}
-  Gravity: -1
+  Gravity: -9
 --- !u!143 &1202898447
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2568,7 +2567,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 1
 --- !u!1 &1282823776
 GameObject:
@@ -2980,6 +2979,51 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 126
   m_CollisionDetection: 1
+--- !u!1 &1547093569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1547093571}
+  - component: {fileID: 1547093570}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: ScoreManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1547093570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547093569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab927dca2d214aea9e09b136cb0c1cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1337169647}
+--- !u!4 &1547093571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547093569}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.891077, y: 14.698634, z: -30.547348}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1723482827
 GameObject:
   m_ObjectHideFlags: 0
@@ -3013,7 +3057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e305f0fcfd744fdb2023c9e3ce738e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
+  scoreManager: {fileID: 1547093570}
 --- !u!135 &1723482829
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3128,7 +3172,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 1
 --- !u!1 &1832686893
 GameObject:
@@ -3209,51 +3253,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1989239301
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1989239303}
-  - component: {fileID: 1989239304}
-  m_Layer: 0
-  m_Name: ScoreManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1989239303
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989239301}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.9045405, y: 14.7, z: -30.54807}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1989239304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989239301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d754a8fed96c4a02919bd4c97dab67e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 1337169647}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3276,6 +3275,6 @@ SceneRoots:
   - {fileID: 374981807}
   - {fileID: 1202148200}
   - {fileID: 1192440726}
-  - {fileID: 1989239303}
   - {fileID: 519467165}
   - {fileID: 1832686896}
+  - {fileID: 1547093571}
